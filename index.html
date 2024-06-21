@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+</head>
+<body>
+    <h1>Create a New Note</h1>
+    <form id="noteForm">
+        <label for="title">title:</label>
+        <input type="text" id="title" name="title" required><br><br>
+        <label for="datetime">datetime:</label>
+        <input type="datetime-local" id="datetime" name="datetime" required><br><br>
+        <label for="note">note:</label>
+        <textarea id="note" name="note" required></textarea><br><br>
+        <button type="submit">Save Note</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
